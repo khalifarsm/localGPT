@@ -113,8 +113,8 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"  # Uses 1.5 GB of VRAM (High Ac
 #### (FOR HF MODELS)
 ####
 
-# MODEL_ID = "NousResearch/Llama-2-7b-chat-hf"
-# MODEL_BASENAME = None
+MODEL_ID = "NousResearch/Llama-2-7b-chat-hf"
+MODEL_BASENAME = None
 # MODEL_ID = "TheBloke/vicuna-7B-1.1-HF"
 # MODEL_BASENAME = None
 # MODEL_ID = "TheBloke/Wizard-Vicuna-7B-Uncensored-HF"
@@ -176,8 +176,8 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"  # Uses 1.5 GB of VRAM (High Ac
 # MODEL_BASENAME = "wizard-vicuna-13B.ggmlv3.q4_0.bin"
 # MODEL_BASENAME = "wizard-vicuna-13B.ggmlv3.q6_K.bin"
 # MODEL_BASENAME = "wizard-vicuna-13B.ggmlv3.q2_K.bin"
-MODEL_ID = "TheBloke/orca_mini_3B-GGML"
-MODEL_BASENAME = "orca-mini-3b.ggmlv3.q4_0.bin"
+# MODEL_ID = "TheBloke/orca_mini_3B-GGML"
+# MODEL_BASENAME = "orca-mini-3b.ggmlv3.q4_0.bin"
 
 ####
 #### (FOR AWQ QUANTIZED) Select a llm model based on your GPU and VRAM GB. Does not include Embedding Models VRAM usage.
