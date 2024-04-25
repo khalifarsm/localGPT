@@ -127,7 +127,7 @@ def run_ingest_route():
         else:
             print("The directory does not exist")
 
-        run_langest_commands = ["python", "ingest.py"]
+        run_langest_commands = ["python3", "ingest.py"]
         if DEVICE_TYPE == "cpu":
             run_langest_commands.append("--device_type")
             run_langest_commands.append(DEVICE_TYPE)
